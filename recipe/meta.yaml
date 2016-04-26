@@ -1,11 +1,13 @@
+{% set version = "1.11.0" %}
+
 package:
     name: setuptools_scm
-    version: 1.8.0
+    version: {{ version }}
 
 source:
-    fn: setuptools_scm-1.8.0.tar.bz2
-    url: https://pypi.python.org/packages/source/s/setuptools_scm/setuptools_scm-1.8.0.tar.bz2
-    md5: 49e83e8fee9ac1d356a634707a62e294
+    fn: setuptools_scm-{{ version }}.tar.gz
+    url: https://pypi.python.org/packages/source/s/setuptools_scm/setuptools_scm-{{ version }}.tar.gz
+    md5: 4c5c896ba52e134bbc3507bac6400087
 
 build:
     number: 0
