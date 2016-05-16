@@ -69,9 +69,10 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/setuptools_scm-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/setuptools_scm-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/setuptools_scm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/setuptools_scm-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setuptools_scm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setuptools_scm-feedstock/branch/master)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setuptools-scm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setuptools-scm-feedstock/branch/master)
 
 Current release info
 ====================
