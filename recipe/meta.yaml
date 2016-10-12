@@ -1,36 +1,37 @@
-{% set version = "1.11.1" %}
+{% set version = "1.13.1" %}
 
 package:
-    name: setuptools_scm
-    version: {{ version }}
+  name: setuptools_scm
+  version: {{ version }}
 
 source:
-    fn: setuptools_scm-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/s/setuptools_scm/setuptools_scm-{{ version }}.tar.gz
-    md5: 4d19b2bc9580016d991f665ac20e2e8f
+  fn: setuptools_scm-{{ version }}.tar.gz
+  url: https://github.com/pypa/setuptools_scm/archive/v{{ version }}.tar.gz
+  sha256: 295dd25103311c6627991d652e7dd6fd9f5ad61742a32dd829e92d30e0f2889b
 
 build:
-    number: 1
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python -m pip install --no-deps .
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - setuptools
+  build:
+    - python
+    - pip
+    - setuptools
+  run:
+    - python
+    - setuptools
 
 test:
-    imports:
-        - setuptools_scm
+  imports:
+    - setuptools_scm
 
 about:
-    home: https://github.com/pypa/setuptools_scm/
-    license: MIT
-    summary: The blessed package to manage your versions by scm tags
+  home: https://github.com/pypa/setuptools_scm/
+  license: MIT
+  summary: 'The blessed package to manage your versions by scm tags.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
-        - kwilcox
+  recipe-maintainers:
+    - ocefpaf
+    - kwilcox
