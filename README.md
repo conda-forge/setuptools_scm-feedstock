@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: The blessed package to manage your versions by scm tags
+Summary: The blessed package to manage your versions by scm tags.
 
 
 
