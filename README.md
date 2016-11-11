@@ -33,7 +33,6 @@ conda search setuptools_scm --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
