@@ -11,6 +11,18 @@ Summary: The blessed package to manage your versions by scm tags.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/setuptools_scm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/setuptools_scm-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/setuptools_scm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/setuptools_scm-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setuptools_scm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setuptools-scm-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setuptools_scm/badges/version.svg)](https://anaconda.org/conda-forge/setuptools_scm)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setuptools_scm/badges/downloads.svg)](https://anaconda.org/conda-forge/setuptools_scm)
+
 Installing setuptools_scm
 =========================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/setuptools_scm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/setuptools_scm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/setuptools_scm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/setuptools_scm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setuptools_scm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setuptools-scm-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setuptools_scm/badges/version.svg)](https://anaconda.org/conda-forge/setuptools_scm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setuptools_scm/badges/downloads.svg)](https://anaconda.org/conda-forge/setuptools_scm)
 
 
 Updating setuptools_scm-feedstock
