@@ -1,4 +1,4 @@
-{% set version = "3.4.3" %}
+{% set version = "3.5.0" %}
 
 package:
   name: setuptools_scm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/setuptools_scm/setuptools_scm-{{ version }}.tar.gz
-  sha256: 26b8a108783cd88f4b15ff1f0f347d6b476db25d0c226159b835d713f9487320
+  sha256: 5bdf21a05792903cafe7ae0c9501182ab52497614fa6b1750d9dbae7b60c1a87
 
 build:
   noarch: python
