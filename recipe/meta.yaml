@@ -9,21 +9,38 @@ source:
   sha256: 5bdf21a05792903cafe7ae0c9501182ab52497614fa6b1750d9dbae7b60c1a87
 
 build:
-  noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
-requirements:
-  host:
-    - python
-    - pip
-  run:
-    - python
-    - setuptools
+outputs:
+  - name: setuptools-scm
+    script: build_base.bat  # [win]
+    script: build_base.sh  # [not win]
+    requirements:
+      host:
+        - python
+        - pip
+      run:
+        - python
+        - setuptools
+    test:
+      imports:
+        - setuptools_scm
+      commands:
+        - pip check
+      requires:
+        - pip
 
-test:
-  imports:
-    - setuptools_scm
+  - name: setuptools_scm
+    build:
+      noarch: generic
+    requirements:
+      run:
+        - {{ pin_subpackage('setuptools-scm', max_pin="x.x.x") }}
+    test:
+      imports:
+        - setuptools_scm
 
 about:
   home: https://github.com/pypa/setuptools_scm/
