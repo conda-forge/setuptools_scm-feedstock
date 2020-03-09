@@ -29,6 +29,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-setuptools--scm-green.svg)](https://anaconda.org/conda-forge/setuptools-scm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/setuptools-scm.svg)](https://anaconda.org/conda-forge/setuptools-scm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/setuptools-scm.svg)](https://anaconda.org/conda-forge/setuptools-scm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/setuptools-scm.svg)](https://anaconda.org/conda-forge/setuptools-scm) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-setuptools_scm-green.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) |
 
 Installing setuptools_scm
@@ -40,16 +41,16 @@ Installing `setuptools_scm` from the `conda-forge` channel can be achieved by ad
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `setuptools_scm` can be installed with:
+Once the `conda-forge` channel has been enabled, `setuptools-scm, setuptools_scm` can be installed with:
 
 ```
-conda install setuptools_scm
+conda install setuptools-scm setuptools_scm
 ```
 
-It is possible to list all of the versions of `setuptools_scm` available on your platform with:
+It is possible to list all of the versions of `setuptools-scm` available on your platform with:
 
 ```
-conda search setuptools_scm --channel conda-forge
+conda search setuptools-scm --channel conda-forge
 ```
 
 

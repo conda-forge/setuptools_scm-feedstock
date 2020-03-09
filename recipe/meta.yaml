@@ -9,14 +9,14 @@ source:
   sha256: 5bdf21a05792903cafe7ae0c9501182ab52497614fa6b1750d9dbae7b60c1a87
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
 
 outputs:
   - name: setuptools-scm
-    script: build_base.bat  # [win]
-    script: build_base.sh  # [not win]
+    script: build_base.sh
+    build:
+      noarch: python
     requirements:
       host:
         - python
