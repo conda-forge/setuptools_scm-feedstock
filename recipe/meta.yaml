@@ -9,7 +9,7 @@ source:
   sha256: 5bdf21a05792903cafe7ae0c9501182ab52497614fa6b1750d9dbae7b60c1a87
 
 build:
-  number: 1
+  number: 2
   noarch: python
 
 outputs:
@@ -24,6 +24,7 @@ outputs:
       run:
         - python
         - setuptools
+        - toml
     test:
       imports:
         - setuptools_scm
