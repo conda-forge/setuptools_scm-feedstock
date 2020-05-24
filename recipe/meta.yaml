@@ -1,4 +1,4 @@
-{% set version = "3.5.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: setuptools_scm
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/setuptools_scm/setuptools_scm-{{ version }}.tar.gz
-  sha256: 5bdf21a05792903cafe7ae0c9501182ab52497614fa6b1750d9dbae7b60c1a87
+  sha256: e8a76e3624c9f1ffbb20c3075fd64edb12e9258884102c5f3ffdb3422961189a
 
 build:
-  number: 2
+  number: 0
   noarch: python
 
 outputs:
@@ -47,7 +47,7 @@ about:
   home: https://github.com/pypa/setuptools_scm/
   license: MIT
   license_file: LICENSE
-  summary: 'The blessed package to manage your versions by scm tags'
+  summary: The blessed package to manage your versions by scm tags
 
 extra:
   recipe-maintainers:
