@@ -23,8 +23,9 @@ outputs:
         - pip
       run:
         - python >=3.6
+        - packaging >=20.0
         - setuptools >=45
-        - tomli >=1.0.0,<1.0.1
+        - tomli >=1.0.0
     test:
       imports:
         - setuptools_scm
