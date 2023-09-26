@@ -1,4 +1,4 @@
-{% set version = "7.1.0" %}
+{% set version = "8.0.1" %}
 
 package:
   name: setuptools_scm
@@ -21,6 +21,10 @@ outputs:
       host:
         - python >=3.8
         - pip
+        - packaging >=20
+        - rich
+        - setuptools >=61
+        - tomli
       run:
         - python >=3.8
         - packaging >=20.0
