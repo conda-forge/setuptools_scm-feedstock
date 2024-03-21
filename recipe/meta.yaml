@@ -22,7 +22,6 @@ outputs:
         - python >=3.8
         - pip
         - packaging >=20
-        - rich
         - setuptools >=61
         - tomli
       run:
