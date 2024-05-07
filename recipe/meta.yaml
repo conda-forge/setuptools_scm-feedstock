@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/setuptools-scm/setuptools-scm-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/setuptools-scm/setuptools_scm-{{ version }}.tar.gz
   sha256: b5f43ff6800669595193fd09891564ee9d1d7dcb196cab4b2506d53a2e1c95c7
 
 build:
