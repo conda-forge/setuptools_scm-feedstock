@@ -1,4 +1,4 @@
-{% set version = "8.2.1" %}
+{% set version = "8.3.0" %}
 
 package:
   name: setuptools_scm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/setuptools-scm/setuptools_scm-{{ version }}.tar.gz
-  sha256: 51cfdd1deefc9b8c08d1a61e940a59c4dec39eb6c285d33fa2f1b4be26c7874d
+  sha256: 360bc58c97e73d3db34f9052937454195ed5c29057a529b324cecbfc324509b3
 
 build:
   number: 0
@@ -30,6 +30,7 @@ outputs:
         - setuptools >=45
         - tomli >=1.0.0
         - typing-extensions
+        - importlib-metadata
     test:
       imports:
         - setuptools_scm

@@ -28,7 +28,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-setuptools--scm-green.svg)](https://anaconda.org/conda-forge/setuptools-scm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/setuptools-scm.svg)](https://anaconda.org/conda-forge/setuptools-scm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/setuptools-scm.svg)](https://anaconda.org/conda-forge/setuptools-scm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/setuptools-scm.svg)](https://anaconda.org/conda-forge/setuptools-scm) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-setuptools_scm-green.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-setuptools__scm-green.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/setuptools_scm.svg)](https://anaconda.org/conda-forge/setuptools_scm) |
 
 Installing setuptools_scm
 =========================
