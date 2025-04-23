@@ -30,6 +30,7 @@ outputs:
         - setuptools >=45
         - tomli >=1.0.0
         - typing-extensions
+        - importlib-metadata
     test:
       imports:
         - setuptools_scm
