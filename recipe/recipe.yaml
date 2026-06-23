@@ -24,13 +24,13 @@ outputs:
       host:
         - python ${{ python_min }}.*
         - setuptools >=77.0.3
-        - vcs_versioning >=1.0.0.dev0
+        - vcs_versioning >=2.0.0.dev0
         - tomli >=1
         - typing_extensions
         - pip
       run:
         - python >=${{ python_min }}
-        - vcs_versioning >=1.0.0.dev0
+        - vcs_versioning >=2.0.0.dev0
         - packaging >=20
         - setuptools
         - tomli >=1
