@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "10.1.2"
+  version: "10.2.0"
 
 recipe:
   name: setuptools_scm
@@ -9,7 +9,7 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/s/setuptools_scm/setuptools_scm-${{ version }}.tar.gz
-  sha256: 24079818acc46e99aae0d65b8d511fafe965970d9cbd060c7b9f7275ded520fb
+  sha256: ec8ea1738b92e42146a46e29a0e9de9ad462744c63cf9778677b95dfd605adde
 
 build:
   number: 0
