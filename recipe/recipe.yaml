@@ -23,18 +23,18 @@ outputs:
     requirements:
       host:
         - python ${{ python_min }}.*
-        - setuptools >=77.0.3
-        - vcs_versioning >=2.0.0.dev0
+        - setuptools >=45
+        - vcs_versioning >=2.3.2.dev0,<3
         - tomli >=1
-        - typing_extensions
+        - typing_extensions >=4.1
         - pip
       run:
         - python >=${{ python_min }}
-        - vcs_versioning >=2.0.0.dev0
+        - vcs_versioning >=2.3.2.dev0,<3
         - packaging >=20
         - setuptools
         - tomli >=1
-        - typing_extensions
+        - typing_extensions >=4.1
 
     tests:
       - python:
@@ -44,6 +44,12 @@ outputs:
           python_version:
             - ${{ python_min }}.*
             - "*"
+      - requirements:
+          run:
+            - pip
+            - python
+        script:
+          - setuptools-scm --help
     about:
       summary: the blessed package to manage your versions by scm tags
 
